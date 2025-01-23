@@ -10,7 +10,7 @@ labels:
 summary: "A project that required me to add 100 items into a collage with a specific theme."
 ---
 
-![IMG_0508](https://github.com/user-attachments/assets/80082a9f-d65f-4bee-a158-d4d689a3bd49) {: width="500px" }
+<img src="https://github.com/user-attachments/assets/80082a9f-d65f-4bee-a158-d4d689a3bd49" alt="Collage" width="500">
 
 This collage took me around five hours to complete, but the journey was anything but simple. It all started with a prompt to create a collage using 100 different objects or photos based on something I’m passionate about. The examples I was given ranged from logos to specific football players, each offering a unique challenge. I decided to focus on anime and cartoon characters, thinking it wouldn't be too difficult to find 100 different ones. But, as the process unfolded, I quickly realized just how tricky it could be.
 
