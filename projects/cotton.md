@@ -1,7 +1,7 @@
 ---
 layout: "project"
 type: "project"
-image: img/collage/collage-image.png
+image: img/cotton/collage.png
 title: "Collage"
 date: "2022-02-09"
 published: true
