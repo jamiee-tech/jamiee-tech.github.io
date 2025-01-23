@@ -1,7 +1,7 @@
 ---
 layout: "project"
 type: "project"
-image: "https://github.com/user-attachments/assets/394f343f-31eb-467c-b0f3-469b3325bf1f"
+image: mg/collage/collage-image.png
 title: "Collage"
 date: "2022-02-09"
 published: true
