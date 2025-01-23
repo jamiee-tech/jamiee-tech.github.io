@@ -10,7 +10,7 @@ labels:
 summary: "A Hangman Game on Scratch"
 ---
 
-![hangman](https://github.com/user-attachments/assets/478d10c6-eee7-431b-82a5-ef245797a758)
+<img src="https://github.com/user-attachments/assets/478d10c6-eee7-431b-82a5-ef245797a758" width="300" />
 
 **Hangman Game in Scratch: AP Computer Science Final Project**
 
