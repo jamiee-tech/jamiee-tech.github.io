@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/code.jpg
+image: img/micromouse/code.png
 title: "Multiples of 3 Table Generator"
 date: 2024
 published: true
