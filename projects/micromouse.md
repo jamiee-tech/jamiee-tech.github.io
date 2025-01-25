@@ -1,10 +1,10 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/micromouse/code.jpg
 title: "Multiples of 3 Table Generator"
 date: 2024
-published: false
+published: true
 labels:
   - C
 summary: "This project generates a table showing numbers up to a user-defined maximum and indicates if they’re multiples of 3 in C."
