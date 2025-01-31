@@ -138,6 +138,9 @@ By learning how to ask questions effectively, developers can improve their techn
 
 
 [Link to the first question](https://stackoverflow.com/questions/23712595/why-doesnt-my-sorted-code-work-in-c)
+
+
+
 [Link to second question](https://stackoverflow.com/questions/79390209/why-is-casting-from-an-unsigned-int-to-a-struct-that-consists-of-bitfields-makin)
 
 __This essay was written with the help of ChatGPT to check with grammar and spelling.__
