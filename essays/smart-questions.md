@@ -11,7 +11,7 @@ labels:
   - StackOverflow
 ---
 
-<img ![ceb26000c140df2953cb80ddfcec727f07dcdf59](https://github.com/user-attachments/assets/ded9c45a-5441-4b1f-a600-421e758673c0)>
+ ![ceb26000c140df2953cb80ddfcec727f07dcdf59](https://github.com/user-attachments/assets/ded9c45a-5441-4b1f-a600-421e758673c0)
 
 
 ## A question can have many solutions but theres only one correct answer
