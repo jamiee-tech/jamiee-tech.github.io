@@ -1,99 +1,143 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "Can you explain?"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2024-01-30
+published: true
 labels:
   - Questions
   - Answers
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img ![ceb26000c140df2953cb80ddfcec727f07dcdf59](https://github.com/user-attachments/assets/ded9c45a-5441-4b1f-a600-421e758673c0)>
 
-## Is there such thing as a stupid question?
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+## A question can have many solutions but theres only one correct answer
 
-## What’s a smart question?
+Math and coding share a challenge: both are difficult, but solutions exist. When faced with problems, we often reach out for help. However, the quality of the help we get depends on the clarity and specificity of our question. Simply showing your code and expecting a fix might result in vague answers, incorrect solutions, or no response at all.
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+In coding, many rely on others for insights, often turning to StackOverflow. It's a platform where users can post questions and receive help on fixing or improving their code.
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+## What’s a "stupid" question?
 
-```
-Q: python date of the previous month
-
-I am trying to get the date of the previous month with python. Here is what i've tried:
-
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
-
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+StackOverflow is an invaluable resource for programmers who need help with code or want to learn new methods. However, some questions are poorly framed and less likely to get useful answers. Here's an example of a "stupid" question:
 
 ```
-A: datetime and the datetime.timedelta classes are your friend.
+Q:why doesn't my sorted code work in c? 
 
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
+Here is my code. it doesn't work:
 
-Like this:
+void insertioon (int d)   // this part, insert and sort list
+{                     
+    struct node *np, *temp, *prev;
+    int found;
 
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
+    np=malloc(sizeof(struct node));
+    np->data = d;
+    np->nextPtr = NULL;
+
+    temp=firstPtr;
+    found=0;
+    while ((temp != NULL) && !found)
+    {
+
+        if (temp->data <d)
+        {
+            prev = temp;
+            temp = temp->nextPtr;
+        }
+        else
+        {
+            found=1;
+        }
+
+        if (prev == NULL)
+        {
+            np->nextPtr=firstPtr;
+            firstPtr=np;
+        }
+        else
+        {
+            prev->nextPtr = np;
+            np->nextPtr = temp;
+        }
+    }
+}
+
+What is my mistake ? in insertioon , I want to sort this list.
+```
+
+While the heading indicates the issue (sorting), the question lacks details on what’s specifically wrong, leaving too much for the responder to figure out. It feels like minimal effort was made in troubleshooting before asking for help, which often leads to incomplete or unhelpful responses. They don’t specify what’s wrong with their code and just throw it out there, expecting someone to fix it—almost like casting a line with poor bait and hoping for a big catch.
+
+## The better question.
+
+Now, consider this more thoughtful question:
 
 ```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
+Q: why is casting from an unsigned int to a struct that consists of bitfields making up an unsigned int not allowed?
 
-## The foolproof way to get ignored.
 
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
+I have looked at the recommendations for both my question and searched for my question's headline but did not find anything related. The line I am confused about is below the comments in mmu.c. I want to set up the MMU translation table on an ARM v7 32-bit processor. The function void map_virt_to_phys_adr(uint32_t virt_adr, uint32_t phys_adr, uint32_t AP, uint32_t PXN, uint32_t XN) takes both the virtual and physical address as parameters and permission flags. It simply creates an entry in the translation table that has the offset of the physical/virtual address (they need to be the same). I do not understand why the compiler gives the errors: a cast from the (L1_table_entry) (section_base_adr | (phys_adr & L1_table_index)) to L1_table_index is not allowed (there is no explanation). And why it says that a ')' is expected at L1_table_index in (phys_adr & L1_table_index)).
 
+// mmu.h
+#define L1_section_index ((uint32_t)1 << (21)) - 1;
+#define L1_table_index ~L1_section_index;
+
+typedef struct L1_table_entry{
+    uint32_t PXN:1;
+    uint32_t unused_1:3;
+    uint32_t XN:1;
+    uint32_t DOMAIN:4;
+    uint32_t unused:1;
+    uint32_t AP_0_1:2;
+    uint32_t unused_2:3;
+    uint32_t AP_2:1;
+    uint32_t unused_3:4;
+    uint32_t base_address:12;
+}L1_table_entry;
+
+typedef struct L1_fault_entry{
+    uint32_t fault:2;
+    uint32_t unused:30;
+}L1_fault_entry;
+
+enum MMU_entry_type {L1_ENTRY, L1_FAULT};
+
+typedef struct MMU_entry{
+    union {
+        L1_table_entry L1_entry;
+        L1_fault_entry L1_fault_entry;
+    };
+    enum MMU_entry_type type;
+} MMU_entry;
+
+// ...
+//mmu.c
+
+void map_virt_to_phys_adr(uint32_t virt_adr, uint32_t phys_adr, uint32_t AP, uint32_t PXN, uint32_t XN){
+    uint32_t section_index = virt_adr & L1_section_index;
+    uint32_t table_index = virt_adr & L1_table_index;
+    uint32_t section_base_adr = phys_adr & L1_table_index;
+    // cast to L1_table_entry is not allowed. Expected a ')' at L1_table_index.
+    L1_table_entry =  (L1_table_entry) (section_base_adr | (phys_adr & L1_table_index));
+    L1_table[table_index] = phys_adr & L1_table_index;
+}
+Edit: I am interested in the reasons for the errors and a solution :)
 ```
-Q: Facebook Desktop Notifier
 
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+This question provides a clear explanation of the problem, the code, and the error, showing the effort made to understand the issue before reaching out for help. It also includes details about the desired outcome and the context, which helps responders provide better guidance.
 
 ## Conclusion
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+Smart questions—those that are clear, concise, and show effort—invite productive responses, foster learning, and contribute to a collaborative atmosphere in the developer community. Poorly framed questions, on the other hand, waste time and hinder the learning process for everyone involved.
+
+By learning how to ask questions effectively, developers can improve their technical communication and help build a more vibrant, efficient, and helpful community.
+
+
+
+[Link to the first question](https://stackoverflow.com/questions/23712595/why-doesnt-my-sorted-code-work-in-c)
+[Link to second question](https://stackoverflow.com/questions/79390209/why-is-casting-from-an-unsigned-int-to-a-struct-that-consists-of-bitfields-makin)
+
+__This essay was written with the help of ChatGPT to check with grammar and spelling.__
