@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Coding Standards"
+title: Coding Standards
 # All dates must be YYYY-MM-DD format!
 date: 2024-02-10
 published: true
