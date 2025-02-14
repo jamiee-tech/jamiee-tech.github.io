@@ -2,7 +2,7 @@
 ---
 layout: essay
 type: essay
-title: Tech Minds Meetup
+title:"Tech Minds Meetup"
 date: 2025-02-13
 published: false
 labels:
