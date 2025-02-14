@@ -13,6 +13,10 @@ labels:
 ---
 
 
+![tech](https://github.com/user-attachments/assets/94d40d69-e1d8-4d97-991c-16efd6b20e7c)
+
+
+
 
 On February 12th, I stumbled into the PACE Tech Minds meetup, at around 5 p.m. on Hawaii Time. Since i came in late I missed the intro, but I caught the gist: It was like speed-dating for tech professionals, where you have 15 minutes to chat with someone before moving on to the next. And, of course, there was food from Zippy’s. I resisted the urge to dive in immediately because, well, I was about to do a lot of talking.
 
