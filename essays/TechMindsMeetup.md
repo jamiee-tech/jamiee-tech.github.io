@@ -4,7 +4,7 @@ layout: essay
 type: essay
 title: "Tech Minds Meetup"
 date: 2025-02-13
-published: false
+published: true
 labels:
   - Software Engineering
   - Learning
