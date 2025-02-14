@@ -14,7 +14,7 @@ labels:
 ---
 
 
-![tech](https://github.com/user-attachments/assets/94d40d69-e1d8-4d97-991c-16efd6b20e7c)
+<img src="https://github.com/user-attachments/assets/94d40d69-e1d8-4d97-991c-16efd6b20e7c" width="900"/> 
 
 
 
