@@ -27,3 +27,5 @@ There’s also the time factor. When I compiled my own raw HTML and CSS code, it
 
 ## Conclusion
 Overall, diving into website creation and learning how to design has been a fun and rewarding experience. It’s been exciting, especially because one of my coworkers does web development too, so we get to share our insights and experiences. With a solid understanding of UI design, I feel even more motivated to keep pushing myself and explore the limitless world of web design. The combination of creativity and technical skills has opened up a new path for me that I can’t wait to continue exploring.
+
+_This essay was written with the help of ChatGPT to check grammar and spelling._
