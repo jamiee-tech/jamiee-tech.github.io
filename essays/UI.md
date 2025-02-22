@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "UI Design"
 # All dates must be YYYY-MM-DD format!
-date: 2024-01-30
+date: 2025-02-22
 published: true
 labels:
   - CSS
@@ -14,7 +14,7 @@ labels:
 
 
 
-## UI Frameworks are not simple.
+## UI Frameworks are fun.
 
 As someone who’s always had a passion for graphic design, I’ve found UI development to be a perfect blend of creativity and coding. It’s like combining the artistic freedom of design with the logic of programming. UI code, especially when working with frameworks like Bootstrap, feels similar to tools like Canva, where you can use pre-made components and templates to jump-start a project. This makes it easy to implement your own style while saving time. However, just like Canva sometimes limits the diversity of design elements, UI frameworks can feel a bit restrictive when it comes to creative flexibility.
 
