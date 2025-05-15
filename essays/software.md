@@ -11,7 +11,7 @@ labels:
   - Software Engineering
 ---
 
-##Reflections on Software Engineering
+## Reflections on Software Engineering
 
 As I near the end of this course, I find myself reflecting on the broader concepts of software engineering that go beyond simply just building web applications. While developing web applications has been an important focus, the fundamental principles I’ve encountered such as Agile Project Management, Configuration Management, and Design Patterns, have provided me with a deeper appreciation for the discipline of software engineering as a whole. Working on the Sync’d Study application allowed me to see how these principles apply in a real-world development process, and how they support the creation of a meaningful product.
 
