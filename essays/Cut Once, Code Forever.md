@@ -4,7 +4,7 @@ type: essay
 title: "Cut Once, Code Forever"
 # All dates must be YYYY-MM-DD format!
 date: 2025-04-25
-published: true
+published: false
 labels:
   - Software Engineering
   - Learning
