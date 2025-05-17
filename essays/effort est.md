@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Effort Estimation and Tracking in Software Development"
 date: 2025-05-12
-published: true
+published: false
 labels:
   - Project Management
   - ICS 314
