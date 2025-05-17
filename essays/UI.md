@@ -4,7 +4,7 @@ type: essay
 title: "UI Design"
 # All dates must be YYYY-MM-DD format!
 date: 2025-02-22
-published: false
+published: true
 labels:
   - CSS
   - Bootstrap 5
