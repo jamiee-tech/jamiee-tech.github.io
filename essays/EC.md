@@ -4,7 +4,7 @@ type: essay
 title: "Tech Minds Meetup"
 # All dates must be YYYY-MM-DD format!
 date: 2025-02-13
-published: true
+published: false
 labels:
   - Software Engineering
   - Learning
